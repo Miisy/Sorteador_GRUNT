@@ -1,0 +1,58 @@
+@fontePrincipal: 'Roboto', sans serif;
+@fonteTitulo: 'Lobster', cursive;
+@cortexto: #fff;
+@corfundo: #eb3b5a;
+@buttonColor: #f7b731;
+@buttonText: #000;
+
+body{
+    background-color: @corfundo;
+    font-family: @fontePrincipal;
+    color: @cortexto;
+}
+
+h1{
+    font-family: @fonteTitulo;
+    font-size: 3em;
+}
+
+main{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2am;
+    text-align: center;
+}
+button{
+    padding: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color: @buttonColor;
+    color: @buttonText;
+    font-family: @fontePrincipal;
+}
+input{
+    display: block;
+    margin: 16px auto 0;
+    font-size: 2em;
+    max-width: 120px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: @cortexto;
+    border-bottom: 9px solid @cortexto;
+}
+.resultado{
+    padding: 16px;
+    margin-top: 120px;
+    border: 8px dotted @cortexto;
+    display: none;
+    span{
+        font-weight: bold;
+        font-size: 32px;
+        display: block;
+    }
+}
